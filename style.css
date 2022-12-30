@@ -1,0 +1,103 @@
+@import "title-img.css";
+@import "sns.css";
+@import "title-content.css";
+@import "one.css";
+@import "two.css";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100&display=swap');
+
+html {
+    padding: 0.5% 3%;
+}
+
+body {
+    height: 100vh;
+}
+
+.main-box {
+    display: flex;
+}
+
+.main-box__two-rec {
+    margin-top: 10px;
+}
+
+.main-box__two-rec span {
+    font-size: larger;
+    font-weight: 800;
+}
+
+.tg {
+    border-collapse:collapse;
+    border-color:#ccc;
+    border-spacing:0;
+}
+
+.tg td{
+    background-color:#fff;
+    border-color:#ccc;
+    border-style:solid;
+    border-width:1px;
+    color:#333;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+
+.tg th{
+    background-color:#f0f0f0;
+    border-color:#ccc;
+    border-style:solid;
+    border-width:1px;
+    color:#333;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    font-weight:normal;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+
+.tg .tg-c3ow{
+    border-color:inherit;
+    text-align:center;
+    vertical-align:top
+}
+
+.tg .tg-lank {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.tg .tg-7btt{
+    border-color:inherit;
+    font-weight:bold;
+    text-align:center;
+    font-size: 17px;
+    vertical-align:top
+}
+
+.main-box__two-rank {
+    width: 700px;
+    height: 200px;
+    overflow: auto;
+    text-align: center;
+}
+
+
+.main-box__two-ranking {
+    margin-top: 10px;
+}
+
+.main-box__two-ranking span {
+    font-size: larger;
+    font-weight: 800;
+}
+
+.tr-main {
+    position: sticky;
+    top: 0;
+    background-color: #f0f0f0;
+}
+

@@ -1,0 +1,21 @@
+.title-content {
+    font-size: 45px;
+}
+
+.title-content span:nth-child(1) {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+.title-content span:nth-child(1) {
+    background: -webkit-linear-gradient(-70deg, #db469f 0%, #2188ff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+}
+
+.title-content span:nth-child(2) {
+    font-size: medium;
+    font-weight: 600;
+    opacity: 0.8;
+}

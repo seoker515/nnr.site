@@ -1,0 +1,13 @@
+.title-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.title-img__all {
+    width: 2000px;
+    height: 300px;
+    opacity: 0.8;
+    border-radius: 15px;
+}

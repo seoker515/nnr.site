@@ -1,0 +1,117 @@
+.link {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.link-youtube__a {
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid rgba(139, 138, 138, 0.5);
+    border-radius: 15px;
+    background-color: tomato;
+    color: white;
+    padding: 5px;
+    font-size: small;
+    font-weight: 900;
+}
+
+.link-youtube i {
+    margin-right: 8px;
+}
+
+.link-tiktok__a {
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid rgba(139, 138, 138, 0.5);
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: small;
+    font-weight: 900;
+}
+
+.link-tiktok i {
+    margin-right: 8px;
+}
+
+.link-insta__a {
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid rgba(139, 138, 138, 0.5);
+    border-radius: 15px;
+    color: white;
+    background: linear-gradient(20deg, yellow, orange, rgb(228, 71, 71), pink, magenta);
+    padding: 5px;
+    font-size: small;
+    font-weight: 900;
+}
+
+.link-insta i {
+    margin-right: 8px;
+}
+
+.link-facebook__a {
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid rgba(139, 138, 138, 0.5);
+    border-radius: 15px;
+    background-color: rgb(80, 105, 247);
+    color: white;
+    padding: 5px;
+    font-size: small;
+    font-weight: 900;
+}
+
+.link-facebook i {
+    margin-right: 8px;
+}
+
+.link-twitter__a {
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid rgba(139, 138, 138, 0.5);
+    border-radius: 15px;
+    background-color: rgb(7, 197, 245);
+    color: white;
+    padding: 5px;
+    font-size: small;
+    font-weight: 900;
+}
+
+.link-twitter i {
+    margin-right: 8px;
+}
+
+.sns-not-main {
+    padding: 400px;
+    text-align: center;
+}
+
+.sns-not-content {
+    font-size: large;
+    border-bottom: 1px solid rgb(170, 172, 169);
+}
+
+@keyframes ball {
+    0% {
+      top: -200px;
+    }
+    100% {
+      top: 0px;
+    }
+  }
+
+.sns-not-icon {
+    margin-bottom: 10px;
+    position: relative;
+    animation: ball 1s ease-in infinite alternate;
+}
+
+.sns-not-content__second {
+    font-size: small;
+    opacity: 0.6;
+}

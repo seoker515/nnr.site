@@ -1,0 +1,36 @@
+.main-box__two {
+    margin-left: 20px;
+}
+
+.main-box__two-intro {
+    border: 1px solid rgb(177, 171, 171);
+    border-radius: 20px;
+    width: 700px;
+}
+
+.main-box__two-int {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+.text {
+    text-align: center;
+    font-weight: 900;
+    font-size: larger;
+}
+
+.int-icon {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.int-icon__text {
+    font-weight: 800;
+    font-size: medium;
+}

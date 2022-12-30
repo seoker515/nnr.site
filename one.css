@@ -1,0 +1,20 @@
+.main-box__one-table {
+    border: 1px solid;
+    width: 300px;
+    height: 80px;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 3px;
+    font-size: medium;
+}
+
+.team-win {
+    color: red;
+    font-weight: 600;
+}
+
+
+.round {
+    font-weight: 800;
+}
