@@ -1,5 +1,6 @@
 .title-content {
     font-size: 45px;
+    display: flex;
 }
 
 .title-content span:nth-child(1) {
