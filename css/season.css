@@ -1,0 +1,9 @@
+.history-season {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.history-season img {
+    height: 900px;
+}
