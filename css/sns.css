@@ -3,7 +3,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
 }
 
 .link-youtube__a {
@@ -16,6 +15,8 @@
     padding: 5px;
     font-size: small;
     font-weight: 900;
+    width: 1000px;
+    height: 100px;
 }
 
 .link-youtube i {
@@ -32,6 +33,8 @@
     padding: 5px;
     font-size: small;
     font-weight: 900;
+    width: 1000px;
+    height: 100px;
 }
 
 .link-tiktok i {
@@ -48,6 +51,8 @@
     padding: 5px;
     font-size: small;
     font-weight: 900;
+    width: 1000px;
+    height: 100px;
 }
 
 .link-insta i {
@@ -64,6 +69,8 @@
     padding: 5px;
     font-size: small;
     font-weight: 900;
+    width: 1000px;
+    height: 100px;
 }
 
 .link-facebook i {
@@ -80,6 +87,8 @@
     padding: 5px;
     font-size: small;
     font-weight: 900;
+    width: 1000px;
+    height: 100px;
 }
 
 .link-twitter i {

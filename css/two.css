@@ -1,20 +1,38 @@
-@import "title-img.css";
-@import "sns.css";
-@import "title-content.css";
-@import "one.css";
-@import "two.css";
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100&display=swap');
-
-html {
-    padding: 0.5% 3%;
+.main-box__two {
+    margin-left: 30px;
 }
 
-body {
-    height: 100vh;
+.main-box__two-intro {
+    border: 1px solid rgb(177, 171, 171);
+    border-radius: 20px;
+    width: 800px;
 }
 
-.main-box {
+.main-box__two-int {
     display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+.text {
+    text-align: center;
+    font-weight: 900;
+    font-size: larger;
+}
+
+.int-icon {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.int-icon__text {
+    font-weight: 800;
+    font-size: medium;
 }
 
 .main-box__two-rec {
@@ -79,7 +97,7 @@ body {
 }
 
 .main-box__two-rank {
-    width: 700px;
+    width: 800px;
     height: 200px;
     overflow: auto;
     text-align: center;
@@ -100,4 +118,3 @@ body {
     top: 0;
     background-color: #f0f0f0;
 }
-
