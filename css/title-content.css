@@ -1,6 +1,10 @@
 .title-content {
     font-size: 45px;
+}
+
+.title-content__text {
     display: flex;
+    align-items: flex-end;
 }
 
 .title-content span:nth-child(1) {
@@ -19,4 +23,5 @@
     font-size: medium;
     font-weight: 600;
     opacity: 0.8;
+    margin-left: 10px;
 }
