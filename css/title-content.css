@@ -2,11 +2,6 @@
     font-size: 45px;
 }
 
-.title-content__text {
-    display: flex;
-    align-items: flex-end;
-}
-
 .title-content__text span:nth-child(1) {
     font-family: 'IBM Plex Sans KR', sans-serif;
 }
@@ -17,6 +12,7 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 900;
+    display: flex;
 }
 
 .title-content__text span:nth-child(2) {
@@ -24,4 +20,10 @@
     font-weight: 600;
     opacity: 0.8;
     margin-left: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.title-content__text {
+    display: flex;
 }
