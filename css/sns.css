@@ -97,7 +97,12 @@
 }
 
 .sns-not-main {
-    padding: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 2000px;
+    height: 1000px;
     text-align: center;
 }
 
