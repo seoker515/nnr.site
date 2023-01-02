@@ -4,6 +4,7 @@
 
 .main-box__three iframe {
     margin-top: 5px;
+    display: flex;
 }
 
 .teaser {
@@ -20,7 +21,7 @@
     justify-content: center;
     border: 1px solid rgb(226, 216, 216);
     border-radius: 20px;
-    width: 570px;
+    width: 550px;
     padding: 20px;
     text-decoration: none;
     color: white;

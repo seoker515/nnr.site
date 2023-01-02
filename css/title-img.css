@@ -2,11 +2,12 @@
     display: flex;
     justify-content: center;
     margin-top: 10px;
+    width: 1750px;
+    height: 300px;
 }
 
 .title-img__all {
-    width: 2000px;
-    height: 300px;
+    width: 1750px;
     opacity: 0.8;
     border-radius: 15px;
 }
