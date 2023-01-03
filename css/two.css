@@ -14,6 +14,26 @@
     justify-content: space-around;
 }
 
+.main-box__two-int-one {
+    overflow: hidden;
+}
+
+.main-box__two-int-two {
+    overflow: hidden;
+}
+
+.main-box__two-int-three {
+    overflow: hidden;
+}
+
+.logo-image img {
+    transition: all 0.2s linear;
+}
+
+.logo-image:hover img {
+    transform: scale(1.05);
+}
+
 .logo {
     width: 150px;
     height: 150px;
