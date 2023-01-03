@@ -17,17 +17,40 @@
 }
 
 .history {
-    display: flex;
+    display: block;
     justify-content: center;
     border: 1px solid rgb(226, 216, 216);
     border-radius: 20px;
     width: 550px;
     padding: 20px;
+    text-align: center;
     text-decoration: none;
     color: white;
+    position: relative;
     font-size: larger;
     font-weight: 900;
     background: linear-gradient(45deg, rgb(94, 90, 94) 0%, rgb(27, 27, 26) 100%);
+}
+
+.history:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(255,255,255,0.4);
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+}
+
+.history:hover:after {
+    width: 120%;
+    background-color: rgba(255,255,255,0);
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
 }
 
 .main-box__three-spon {
