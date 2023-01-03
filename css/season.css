@@ -2,9 +2,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 950px;
+    width: 1750px;
 }
 
 .history-season img {
     height: 900px;
-    width: 800px;
+    width: 1000px;
 }
