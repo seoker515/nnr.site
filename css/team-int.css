@@ -1,0 +1,50 @@
+.team-int__title {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.team-int__title.one {
+    border-left: 4px solid rgb(212, 73, 240);
+}
+
+.team-int__title.two {
+    border-left: 4px solid rgb(50, 101, 212);
+}
+
+.team-int__title.three {
+    border-left: 4px solid rgb(220, 227, 241);
+}
+
+.team-int__title img {
+    width: 100px;
+    height: 100px;
+    margin-left: 15px;
+}
+
+.team-int__title span {
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 15px;
+}
+
+.highfour-name {
+    background: -webkit-linear-gradient(-70deg, #d692d6 0%, #cc53b8 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.wavy-name {
+    background: -webkit-linear-gradient(-70deg, #6cafd6 0%, #1b36d1 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.unclecomet-name {
+    background: -webkit-linear-gradient(-70deg, #d5e3eb 0%, #acddec 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
