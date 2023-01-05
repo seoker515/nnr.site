@@ -1,0 +1,13 @@
+.player-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+.player-column__img {
+    margin-bottom: 30px;
+}
+
+.player-column__img img {
+    width: 300px;
+    height: 300px;
+}
