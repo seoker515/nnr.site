@@ -138,3 +138,8 @@
     top: 0;
     background-color: #f0f0f0;
 }
+
+.player-ranking {
+    font-size: 15px;
+    font-weight: 600;
+}
