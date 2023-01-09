@@ -14,6 +14,20 @@
     font-weight: 600;
 }
 
+.sum-point {
+    color: black;
+    font-weight: 600
+}
+
+.point {
+    color: red;
+    font-weight: 600
+}
+
+.as-point {
+    color: blue;
+    font-weight: 600
+}
 
 .round {
     font-weight: 800;
