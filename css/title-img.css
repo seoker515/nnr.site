@@ -1,9 +1,9 @@
 .title-img {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     margin-top: 10px;
     width: 1750px;
-    height: 300px;
+    height: 350px;
 }
 
 .title-img__all {
